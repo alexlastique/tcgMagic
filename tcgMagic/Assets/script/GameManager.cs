@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static classCarte;
 
 public class GameManager : MonoBehaviour
 {

@@ -9,6 +9,8 @@ TagManager:
   - marais
   - montagne
   - plaine
+  - RelieurDAmes
+  - ile
   layers:
   - Default
   - TransparentFX

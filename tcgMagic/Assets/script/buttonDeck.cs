@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class buttonDeck : MonoBehaviour
 {
     private Button btn;
-    private string[] img = new string[5] {"foret","ile","marais","montagne","plaine"};
+    private string[] img = new string[6] {"foret","ile","marais","montagne","plaine", "RelieurDAmes" };
     public Transform CardContaineur;
+    public classCarte[] deck;
 
     void Start()
     {
@@ -18,7 +19,7 @@ public class buttonDeck : MonoBehaviour
     void ButtonSelected()
     {
         float pos = GameManager.Instance.posDeck;
-        string random = img[Random.Range(0, 5)];
+        string random = img[Random.Range(0, 6)];
         // Crée un nouvel objet GameObject
         GameObject nouvelCarte = new GameObject(random);
         nouvelCarte.tag = "Card";
