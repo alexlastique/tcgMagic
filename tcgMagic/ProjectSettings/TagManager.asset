@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Card
+  - foret
+  - marais
+  - montagne
+  - plaine
   layers:
   - Default
   - TransparentFX
