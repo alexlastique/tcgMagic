@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public float jumpForce = 10f;
 
     private bool isGrounded;
-    private bool isSpick;
+    private bool death;
     private Rigidbody2D rb;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,9 +16,9 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("ground"))
         {
             isGrounded = true;
-        }else if (collision.CompareTag("Respawn"))
+        }if (collision.CompareTag("Respawn") || Mathf.Abs(rb.velocity.x) < 10f)
         {
-            isSpick = true;
+            death = true;
         }
     }
 
@@ -27,9 +27,9 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("ground"))
         {
             isGrounded = false;
-        }else if (collision.CompareTag("Respawn"))
+        }if (collision.CompareTag("Respawn"))
         {
-            isSpick = false;
+            death = false;
         }
     }
 
@@ -41,9 +41,10 @@ public class Player : MonoBehaviour
     private void Update()
     {
 
-        if (isSpick)
+        if (death)
         {
             transform.position = new Vector2(-33.91f, -2.53f);
+            death = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -52,8 +53,8 @@ public class Player : MonoBehaviour
         }
 
         // Mouvement horizontal
-        float horizontalInput = 2;
-        Vector2 movement = new Vector2(horizontalInput * speed, rb.velocity.y);
+        float horizontalMouvement = 2;
+        Vector2 movement = new Vector2(horizontalMouvement * speed, rb.velocity.y);
         rb.velocity = movement;
     }
 }
