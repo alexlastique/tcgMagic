@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Aper\xE7u de l'avenir"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
+  name: "Aper\xE7u de l'avenir"
+  cost: 000000000000000000000000000000000100000002000000
+  type: Rituel
   sousType: 
   stats: 0000000000000000
   capacity:

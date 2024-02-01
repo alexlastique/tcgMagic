@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Cordill\xE8re marqu\xE9e par les vents"
   m_EditorClassIdentifier: 
-  name: 
+  name: "Cordill\xE8re marqu\xE9e par les vents"
   cost: 000000000000000000000000000000000000000000000000
-  type: 
+  type: Terrain
   sousType: 
   stats: 0000000000000000
   capacity:
   - 
   - 
   - 
-  engagement: 0
+  engagement: 1

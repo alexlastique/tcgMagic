@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: Plaine
   m_EditorClassIdentifier: 
-  name: 
+  name: Plaine
   cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
+  type: Terrain de base
+  sousType: plaine
   stats: 0000000000000000
   capacity:
   - 

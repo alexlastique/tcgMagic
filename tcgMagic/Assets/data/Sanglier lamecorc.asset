@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: Sanglier lamecorc
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: Sanglier lamecorc
+  cost: 000000000100000000000000000000000000000003000000
+  type: "Cr\xE9ature"
+  sousType: sanglier
+  stats: 0300000002000000
   capacity:
-  - 
+  - Intimidation
   - 
   - 
   engagement: 0

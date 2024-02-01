@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Dragon protect\xE9caille"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "Dragon protect\xE9caille"
+  cost: 020000000000000000000000000000000000000004000000
+  type: "Cr\xE9ature"
+  sousType: dragon
+  stats: 0400000004000000
   capacity:
-  - 
+  - Vol
   - 
   - 
   engagement: 0

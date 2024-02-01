@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: Prahv, les tours de l'Ordre
   m_EditorClassIdentifier: 
-  name: 
+  name: Prahv, les tours de l'Ordre
   cost: 000000000000000000000000000000000000000000000000
-  type: 
+  type: Terrain
   sousType: 
   stats: 0000000000000000
   capacity:

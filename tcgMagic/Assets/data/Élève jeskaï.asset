@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "\xC9l\xE8ve jeska\xEF"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "\xC9l\xE8ve jeska\xEF"
+  cost: 010000000000000000000000000000000000000001000000
+  type: "Cr\xE9ature"
+  sousType: humain et moine
+  stats: 0100000003000000
   capacity:
-  - 
+  - Prouesse
   - 
   - 
   engagement: 0

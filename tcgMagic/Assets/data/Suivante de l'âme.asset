@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Suivante de l'\xE2me"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "Suivante de l'\xE2me"
+  cost: 010000000000000000000000000000000000000000000000
+  type: "Cr\xE9ature"
+  sousType: humain et clerc
+  stats: 0100000001000000
   capacity:
   - 
   - 

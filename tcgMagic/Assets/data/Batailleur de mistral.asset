@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: Batailleur de mistral
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: Batailleur de mistral
+  cost: 010000000000000000000000000000000000000001000000
+  type: "Cr\xE9ature"
+  sousType: "p\xE9gase"
+  stats: 0200000001000000
   capacity:
-  - 
+  - Vol
   - 
   - 
   engagement: 0

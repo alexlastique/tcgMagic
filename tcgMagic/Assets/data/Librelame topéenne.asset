@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Librelame top\xE9enne"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "Librelame top\xE9enne"
+  cost: 010000000000000000000000000000000000000001000000
+  type: "Cr\xE9ature"
+  sousType: humain et soldat
+  stats: 0200000002000000
   capacity:
-  - 
-  - 
+  - Vigilance
+  - "R\xE9putation 1"
   - 
   engagement: 0

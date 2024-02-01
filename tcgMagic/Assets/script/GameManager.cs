@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
 {
     public float pos = -8f;
     public float posDeck = -8f;
+    public bool pioche;
+    public int phase = 0;
+    public classCarte[] deck1;
     public static GameManager Instance;
 
     void Awake()

@@ -13,19 +13,37 @@ public class main : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //debut desengagement
-        //fin desengagement
+        int phase = GameManager.Instance.phase;
+        if (phase == 0)
+        {
+            //debut desengagement
+            //fin desengagement
+            phase = 1;
+        }
 
-        //debut pioche
-        //fin pioche
+        if (phase == 1)
+        {
+            //debut pioche
+            GameManager.Instance.pioche = true;
+            //fin pioche
+        }
 
-        //debut main phase 1
-        //fin main phase 1
+        if (phase == 2)
+        {
+            //debut main phase 1
+            //fin main phase 1
+        }
 
-        //debut battle
-        //fin battle
+        if (phase == 3)
+        {
+            //debut battle
+            //fin battle
+        }
 
-        //debut main phase 2
-        //fin main phase 2
+        if (phase == 4)
+        {
+            //debut main phase 2
+            //fin main phase 2
+        }
     }
 }

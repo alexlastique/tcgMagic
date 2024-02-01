@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Myr p\xE9rilleux"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "Myr p\xE9rilleux"
+  cost: 000000000000000000000000000000000000000002000000
+  type: "Cr\xE9ature-artefact"
+  sousType: myr
+  stats: 0100000001000000
   capacity:
   - 
   - 

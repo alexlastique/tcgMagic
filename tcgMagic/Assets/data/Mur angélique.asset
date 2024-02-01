@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: "Mur ang\xE9lique"
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
-  sousType: 
-  stats: 0000000000000000
+  name: "Mur ang\xE9lique"
+  cost: 010000000000000000000000000000000000000001000000
+  type: "Cr\xE9ature"
+  sousType: mur
+  stats: 0000000004000000
   capacity:
-  - 
-  - 
+  - "D\xE9fenseur"
+  - vol
   - 
   engagement: 0

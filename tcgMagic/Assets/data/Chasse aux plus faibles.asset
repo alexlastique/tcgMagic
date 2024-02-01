@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a969c4cb11b834b658a89a78620bcbfc, type: 3}
   m_Name: Chasse aux plus faibles
   m_EditorClassIdentifier: 
-  name: 
-  cost: 000000000000000000000000000000000000000000000000
-  type: 
+  name: Chasse aux plus faibles
+  cost: 000000000000000000000000010000000000000003000000
+  type: Rituel
   sousType: 
   stats: 0000000000000000
   capacity:

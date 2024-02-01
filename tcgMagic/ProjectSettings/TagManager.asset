@@ -5,12 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Card
-  - foret
-  - marais
-  - montagne
-  - plaine
-  - RelieurDAmes
-  - ile
+  - "\xCEle"
+  - Plaine
+  - Montagne
+  - "For\xEAt"
+  - "Relieur D'\xE2mes"
+  - Marais
   layers:
   - Default
   - TransparentFX
