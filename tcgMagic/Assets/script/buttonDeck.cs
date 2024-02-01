@@ -10,10 +10,10 @@ public class buttonDeck : MonoBehaviour
     private Button btn2;
     public Transform CardContaineur;
     public classCarte[] deck;
+    private float pos;
 
     void Start()
     {
-        CardContaineur = GameObject.Find("CardContaineur").transform;
         btn = GameObject.Find("Button (Legacy)").GetComponent<Button>();
         btn.onClick.AddListener(ButtonSelected);
         btn2 = GameObject.Find("Button Battle").GetComponent<Button>();
@@ -22,9 +22,17 @@ public class buttonDeck : MonoBehaviour
     }
     void ButtonSelected()
     {
+        CardContaineur = GameObject.Find("CardContaineur" + GameManager.Instance.player.ToString()).transform;
         if (GameManager.Instance.pioche)
         {
-            float pos = GameManager.Instance.posDeck;
+            if (GameManager.Instance.player == 0)
+            {
+                pos = GameManager.Instance.posDeck0;
+            }
+            else
+            {
+                pos = GameManager.Instance.posDeck1;
+            }
             int randomInt = Random.Range(0, deck.Length);
             string randomName = deck[randomInt].name;
             // Crée un nouvel objet GameObject
@@ -59,7 +67,14 @@ public class buttonDeck : MonoBehaviour
             nouvelCarte.transform.position = new Vector2(pos, -3.48f);
             nouvelCarte.transform.localScale = new Vector2(0.58f, 0.58f);
             spriteRenderer.sortingOrder = 1 + nouvelCarte.transform.GetSiblingIndex();
-            GameManager.Instance.posDeck += 0.5f;
+            if (GameManager.Instance.player == 0)
+            {
+                GameManager.Instance.posDeck0 += 0.5f;
+            }
+            else
+            {
+                GameManager.Instance.posDeck1 += 0.5f;
+            }
             GameManager.Instance.phase = 2;
             GameManager.Instance.pioche = false;
         }
@@ -67,7 +82,23 @@ public class buttonDeck : MonoBehaviour
     
     void ButtonSelected2()
     {
-        GameManager.Instance.phase = 3;
+        GameManager.Instance.phase ++;
+        if (GameManager.Instance.phase == 5)
+        {
+            if (GameManager.Instance.player == 0)
+            {
+                GameManager.Instance.CardContaineur0.SetActive(false);
+                GameManager.Instance.player = 1;
+                GameManager.Instance.CardContaineur1.SetActive(true);
+            }
+            else if (GameManager.Instance.player == 1)
+            {
+                GameManager.Instance.CardContaineur1.SetActive(false);
+                GameManager.Instance.player = 0;
+                GameManager.Instance.CardContaineur0.SetActive(true);
+            }
+            GameManager.Instance.phase = 0;
+        }
     }
     void OnDisable()
     {

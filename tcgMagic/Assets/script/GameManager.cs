@@ -6,10 +6,17 @@ using static classCarte;
 
 public class GameManager : MonoBehaviour
 {
-    public float pos = -8f;
-    public float posDeck = -8f;
+    public float pos0 = -8f;
+    public float posDeck0 = -8f;
+    public int PV0 = 20;
+    public float pos1 = -8f;
+    public float posDeck1 = -8f;
+    public int PV1 = 20;
     public bool pioche;
     public int phase = 0;
+    public int player = 0;
+    public GameObject CardContaineur0;
+    public GameObject CardContaineur1;
     public classCarte[] deck1;
     public static GameManager Instance;
 
